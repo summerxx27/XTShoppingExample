@@ -3,7 +3,7 @@
 //  Demo
 //
 //  Created by Mac on 16/5/21.
-//  Copyright © 2016年 Zhangjingwang. All rights reserved.
+//  Copyright © 2016年 summerxx. All rights reserved.
 //
 
 #import <UIKit/UIKit.h>
