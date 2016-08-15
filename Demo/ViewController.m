@@ -67,7 +67,7 @@
         
         if (boo) {
             // 这里是动画开始的方法
-            [self JoinCartAnimationWithRect:parentRect];
+            [self joinCartAnimationWithRect:parentRect];
             
         }
         else
@@ -78,7 +78,7 @@
     return cell;
 }
 #pragma mark -加入购物车动画
--(void) JoinCartAnimationWithRect:(CGRect)rect
+-(void)joinCartAnimationWithRect:(CGRect)rect
 {
     _endPoint_x = 35;
     _endPoint_y = Screen_height - 35;
@@ -146,9 +146,6 @@
         
     }
 }
-- (void)didReceiveMemoryWarning {
-    [super didReceiveMemoryWarning];
-    // Dispose of any resources that can be recreated.
-}
+
 
 @end
